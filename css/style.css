@@ -575,6 +575,28 @@ button {
 
 .video-content {
   height: 880px;
-  background: url("../img/video-bg.jpg") no-repeat center;
+  background: url("../img/video-bg.jpg") no-repeat center/cover;
+  position: relative;
+}
+
+.video-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 38, 49, 0.4);
+}
+
+.video-content::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 105px;
+  height: 105px;
+  background: url("../img/play-button.svg") no-repeat center;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
