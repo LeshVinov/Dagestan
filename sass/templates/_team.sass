@@ -1,0 +1,38 @@
+.team
+    padding: 448px 0 190px
+    margin-top: -320px
+    background: $darkGreen url('../img/auth-bg.png') no-repeat top / cover
+    position: relative
+    &-content
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 100%
+    &__title
+        margin-bottom: 60px
+    &-list
+        &__item
+            display: flex
+            align-items: center
+    &-item
+        &__img
+            border-radius: 24px
+            margin-right: 151px
+        &-desc
+            max-width: 565px
+            &__name
+                font-size: 32px
+                margin-bottom: 32px
+            &__about
+                color: $grey
+                font-size: 24px
+                &:first-of-type
+                    margin-bottom: 20px
+    &-slider
+        &__arrow
+            position: absolute
+            top: 60%
+            right: 5%
+            width: 44px
+            height: 44px
+            background: url('../img/arrow-right.svg') no-repeat center

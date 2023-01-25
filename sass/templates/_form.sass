@@ -1,0 +1,43 @@
+.form
+    padding: 0 0 130px
+    background: $green
+    &__title
+        font-size: 40px
+        line-height: 140%
+        letter-spacing: 0.2em
+        text-transform: uppercase
+        margin-bottom: 60px
+    &-top
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+    &-group
+        display: flex
+        flex-direction: column
+        &__label
+            font-size: 24px
+            line-height: 29px
+            margin-bottom: 8px
+        &__input
+            background: #2C3242
+            border-radius: 30px
+            color: $grey
+            font-size: 20px
+            padding: 18px 0
+            text-indent: 24px
+            width: 445px
+    &__button
+        padding: 22px 177px
+        border-radius: 30px
+    &-confidence
+        display: flex
+        justify-content: flex-end
+        margin-top: 8px
+        &__text
+            max-width: 445px
+            font-size: 12px
+        &__link
+            color: $orange
+            transition: text-decoration .3s
+            &:hover
+                text-decoration: underline

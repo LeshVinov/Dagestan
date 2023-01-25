@@ -1,0 +1,45 @@
+.gallery
+    padding: 220px 0 240px 0
+    background: $green url('../img/gallery-bg.png') no-repeat top / cover
+    img
+        cursor: pointer
+        transition: transform .3s
+        &:hover
+            transform: scale(1.1)
+    &-сontent
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__title
+        margin-bottom: 76px
+    &__img
+        border-radius: 20px
+    &-list
+        display: flex
+        margin-bottom: 60px
+    .col
+        &:first-of-type
+            margin-right: 33px
+            .col
+                &-part
+                    display: flex
+                    margin-bottom: 32px
+                    .col
+                        &-mini
+                            display: flex
+                            flex-direction: column
+                            margin-left: 32px
+                            img
+                                &:first-of-type
+                                    margin-bottom: 33px
+        &:last-of-type
+            .col
+                &-part
+                    display: flex
+                    margin-top: 33px
+                    img
+                        &:first-of-type
+                            margin-right: 33px
+    &__button
+        padding: 18px 100px
+        border-radius: 26px
