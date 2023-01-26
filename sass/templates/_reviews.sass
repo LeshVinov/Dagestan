@@ -1,0 +1,51 @@
+.reviews
+    background: url('../img/tours-bg--tours.png') no-repeat top / cover
+    padding-top: 400px
+    margin-top: -300px
+    &-content
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__title
+        margin-bottom: 76px
+    &-list
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+        &__item
+            max-width: 684px
+            border-radius: 12px
+            padding: 32px
+            background: $cardBlue
+            margin-bottom: 32px
+            &:nth-of-type(2n-1)
+                margin-right: 32px                    
+    &-item
+        &__name
+            font-size: 24px
+            font-weight: bold
+            margin-bottom: 12px
+        &-rating
+            display: flex
+            align-items: center
+            margin-bottom: 20px
+            &__number
+                margin-right: 4px
+                font-size: 14px
+                color: #AFAFAF
+        &__tour
+            color: #B8B8B8
+            margin-bottom: 20px
+            &-name
+                font-weight: bold
+                color: #fff
+        &__text
+            color: $grey
+            font-size: 14px
+            line-height: 24px
+            &--orange
+                color: $orange
+                cursor: pointer
+                &:hover
+                    text-decoration: underline
