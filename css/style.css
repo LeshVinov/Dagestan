@@ -506,7 +506,7 @@ input {
 
 .hero {
   padding: 360px 0 210px;
-  margin-top: -170px;
+  margin-top: -175px;
   background: url("../img/hero-bg.jpg") no-repeat center/cover;
 }
 
@@ -543,6 +543,10 @@ input {
 
 .hero__button {
   background: transparent;
+}
+
+.hero--tours_page {
+  background: url("../img/hero-bg--tours.jpg") no-repeat center/cover;
 }
 
 .about-us {
@@ -690,6 +694,13 @@ input {
   margin-bottom: 20px;
 }
 
+.tour-item__button {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 24px;
+  padding: 14px 0;
+}
+
 .tour-desc {
   padding: 12px 20px 20px 20px;
 }
@@ -719,6 +730,12 @@ input {
 .tour__button {
   padding: 18px 100px;
   border-radius: 26px;
+}
+
+.tour--tours_page {
+  background: url("../img/tours-bg--tours.png") no-repeat top/cover;
+  padding-top: 400px;
+  margin-top: -300px;
 }
 
 .gallery {
@@ -809,6 +826,13 @@ input {
   border-radius: 26px;
 }
 
+.gallery--tours_page {
+  background: #0B2830 url("../img/gallery-bg--tours.png") no-repeat top/cover;
+  padding-top: 245px;
+  padding-bottom: 100px;
+  margin-top: -100px;
+}
+
 .team {
   padding: 448px 0 190px;
   margin-top: -320px;
@@ -873,6 +897,7 @@ input {
   width: 44px;
   height: 44px;
   background: url("../img/arrow-right.svg") no-repeat center;
+  cursor: pointer;
 }
 
 .form {
@@ -958,6 +983,11 @@ input {
   text-decoration: underline;
 }
 
+.form--tours_page {
+  padding-top: 175px;
+  background: url("../img/gallery-bg.png") no-repeat -1px top/cover;
+}
+
 .footer {
   padding: 50px 0 40px;
   background: #3A5C33;
@@ -1016,5 +1046,9 @@ input {
 
 .footer__phone {
   margin-right: 40px;
+}
+
+.footer--tours_page {
+  background: #142011;
 }
 /*# sourceMappingURL=style.css.map */
