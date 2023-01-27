@@ -1,0 +1,38 @@
+.map
+    background: #0B2930 url('../img/map-bg.png') no-repeat top / cover
+    padding: 220px 0
+    &-content
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-desc
+        &__title
+            max-width: 240px
+            font-size: 32px
+            line-height: 38px
+            margin-bottom: 70px
+        &-group
+            max-width: 375px
+            margin-bottom: 32px
+            &__title
+                font-size: 14px
+                line-height: 17px
+                letter-spacing: -0.02em
+                color: #B8B8B8
+            &__text
+                font-size: 18px
+                line-height: 150%
+                letter-spacing: -0.02em
+                margin-top: 12px
+                &--orange
+                    color: $orange
+                    cursor: pointer
+                    &:hover
+                        text-decoration: underline
+            &:nth-of-type(2)
+                .map
+                    &-desc
+                        &-group
+                            &__text
+                                &:last-of-type
+                                    margin-top: 8px
